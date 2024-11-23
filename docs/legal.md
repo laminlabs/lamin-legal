@@ -1,0 +1,7 @@
+---
+orphan: true
+---
+
+# Legal notes
+
+
