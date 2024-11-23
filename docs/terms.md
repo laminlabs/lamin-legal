@@ -22,7 +22,7 @@ Lamin operates the lamin.ai website, which provides
 
 By using our service (LaminHub) you accept these Terms. If you disagree with these Terms, you must not use our Service.
 
-In using our service, we may process your personal data; more information about this can be found in the [privacy policy](/legal/privacy-policy).
+In using our service, we may process your personal data; more information about this can be found in the [privacy policy](/privacy-policy).
 
 ## Subscriptions
 
@@ -46,7 +46,7 @@ Where our Service contains links to other sites, User Content, and resources pro
 
 ## Stored data
 
-For privacy-related data, see the [privacy policy](/legal/privacy-policy).
+For privacy-related data, see the [privacy policy](/privacy-policy).
 
 If you create a "LaminDB instance" and decide to "register it on lamin.ai", we store:
 
