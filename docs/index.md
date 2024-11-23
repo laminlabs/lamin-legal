@@ -1,9 +1,9 @@
-# Lamin
+# Lamin Legal
 
 ```{toctree}
-:hidden: true
 :maxdepth: 1
 
 privacy-policy
 terms
+changelog
 ```
