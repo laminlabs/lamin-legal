@@ -4,23 +4,16 @@ orphan: true
 
 # Terms
 
-Last updated Sep 23rd, 2023.
+Last updated Nov 3rd, 2023.
 
-We are Lamin Labs GmbH (registered with number HRB 279584) trading as Lamin.
+We are Lamin, operating the lamin.ai website through our German entity Lamin Labs GmbH, see [here](https://lamin.ai/imprint).
 
-Our registered address is:
-Ruth Drexel Str. 122,
-81927 Munich,
-Germany.
+The lamin.ai website provides
 
-If you have any questions about these Terms, please contact us at `imprint@lamin.ai`.
+1. documentation for an open-source data management software package called LaminDB
+2. a web service called LaminHub to connect & explore _LaminDB instances_
 
-Lamin operates the lamin.ai website, which provides
-
-1. documentation for an open-source software package called LaminDB
-2. a web service called LaminHub to connect & explore so-called "LaminDB instances"
-
-By using our service (LaminHub) you accept these Terms. If you disagree with these Terms, you must not use our Service.
+By using our service (LaminHub) you accept these Terms. If you disagree with these Terms, you must not use our Service. If you have any questions about these Terms, please contact us at `imprint@lamin.ai`.
 
 In using our service, we may process your personal data; more information about this can be found in the [privacy policy](/privacy-policy).
 
@@ -44,23 +37,11 @@ You must maintain a secure internet connection. Where you lose access to the Ser
 
 Where our Service contains links to other sites, User Content, and resources provided by third parties, these are provided for your information only. They should not be interpreted as our approval of those linked websites or information you may obtain from them.
 
-## Stored data
+## Data hosting
 
-For privacy-related data, see the [privacy policy](/privacy-policy).
+Lamin does not host your data, but provides an access layer to common storage locations and database hosting services, in particular AWS S3 & RDS, Google Cloud Storage & SQL, HuggingFace, Zenodo, Cloudflare R2, and others.
 
-If you create a "LaminDB instance" and decide to "register it on lamin.ai", we store:
-
-- a string reference to a default storage location, like `"s3://my-bucket"`
-- the database connection string that you provide
-- the schema module identifiers that you provide
-
-These data are sufficient for you to load instances from any computer through LaminHub, assuming you manage secrets and VPCs client side.
-
-We do _not_ store any of your R&D data.
-
-If you do not explicitly grant us access through secrets to storage or database within an Enterprise Plan engagement, Lamin will not be able to access your data.
-
-In case you provide us with secrets, we will store them in a secure way (Secret store, Vault). They are decoupled from all our infrastructure and solely used so that you can explore your LaminDB instances through LaminHub. At any time, you will be able to revoke Lamin's access by invalidating secrets.
+At any given time, you are able to access data through its original location: you obtain that in the open-source LaminDB package via `artifact.path` and `ln.setup.settings.instance` and on the LaminHub GUI by clicking on the top right panel of an artifact page.
 
 ## Intellectual property
 
